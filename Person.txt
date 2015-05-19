@@ -1,0 +1,15 @@
+
+
+class Person:
+
+    FPS = 120
+    speed = 6
+    frames = FPS / speed
+    loc1 = 165
+    loc2 = 195
+    loc3 = 225
+    frames = 20
+    strips = [
+	SpriteStripAnim('ff.bmp',[(70,40,30,40),(40, 40, 30, 40),(5,40,30,40)], 3, -1, True, frames,30,30),
+	SpriteStripAnim('ffv2.bmp',[(loc3,40,30,40),(loc2, 40, 30, 40),(loc1,40,30,40)], 3, -1, True, frames,30,30),
+    ]          
